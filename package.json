@@ -1,0 +1,22 @@
+{
+  "name": "sunrise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  "dev": "ts-node src/index.ts",          
+  "build": "tsc",                         
+  "start": "node dist/index.js",          
+  "watch": "tsc --watch",                 
+  "serve": "nodemon --watch src --exec ts-node src/index.ts" // hot-reload dev mode
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
